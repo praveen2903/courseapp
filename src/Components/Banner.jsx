@@ -1,5 +1,5 @@
 import React from 'react'
-import Typed from 'react-typed'
+import { Typewriter } from "react-simple-typewriter";
 
 export default function Banner() {
   return (
@@ -10,8 +10,9 @@ export default function Banner() {
             </div>
             <h2 className='text-white text-3xl md:text-[80px] md:p-[24px]'>Grow With us.</h2>
             <div className='text-[20px] md:text-2xl md:text-[60px] text-white md:p-[24px]'>
-                Learn 
-                <Typed className='pl-3' strings={['web development','Python programming','Power Bi','Machine Learning','React Developer']} typeSpeed={100} loop={true} backSpeed={80}/>
+              <span className="text-darkblue">{"Learn "}</span>
+              <Typewriter words={['web development','Python programming','Power Bi','Machine Learning','React Developer']} loop={false} typeSpeed={120} deleteSpeed={100} delaySpeed={1000}/> 
+                  
             </div>
             <button className='bg-black text-white p-3 rounded hover:bg-[#991b1b] hover:text-[#171717]'>Get Started</button>
         </div>
