@@ -5,7 +5,7 @@ export default function Banner() {
   return (
     <div className='bg-[#2699fb] w-full py-[100px]'>
         <div className='max-w-[1240px] py-[100px] mx-auto text-center font-bold'>
-            <div className='text-xl md:text-3x1 md:p-[24px]'>
+            <div className='text-xl md:text-3x1 md:p-[24px] text-white'>
                 Learn with us
             </div>
             <h2 className='text-white text-3xl md:text-[80px] md:p-[24px]'>Grow With us.</h2>

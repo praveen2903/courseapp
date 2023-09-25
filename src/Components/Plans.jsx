@@ -19,7 +19,7 @@ export default function Plans() {
                 </div>
             </div>
                 <div>
-                    <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 hover:bg-blue-700 hover:scale-90 duration-200'>start trail</button>
+                    <button className='bg-[#00df9a] w-[200px] text-white rounded-md font-medium my-6 mx-auto px-6 py-3 hover:bg-blue-700 hover:scale-90 duration-200'>start trail</button>
                 </div>
             </div>
 
@@ -36,7 +36,7 @@ export default function Plans() {
                         </div>
                 </div>
                 <div>
-                    <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 hover:bg-blue-700 hover:scale-90 duration-200'>start trail</button>
+                    <button className='bg-[#00df9a] w-[200px] text-white rounded-md font-medium my-6 mx-auto px-6 py-3 hover:bg-blue-700 hover:scale-90 duration-200'>start trail</button>
                 </div>            
             </div>
             <div>
@@ -50,7 +50,7 @@ export default function Plans() {
                     </div>
                 </div>
                 <div>
-                    <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 hover:bg-blue-700 hover:scale-90 duration-200'>start trail</button>
+                    <button className='bg-[#00df9a] text-white w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 hover:bg-blue-700 hover:scale-90 duration-200'>start trail</button>
                 </div>
             </div>
             <div>
@@ -64,7 +64,7 @@ export default function Plans() {
                     </div>
                 </div>
                 <div>
-                    <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 hover:bg-blue-700 hover:scale-90 duration-200'>start trail</button>
+                    <button className='bg-[#00df9a] w-[200px] text-white rounded-md font-medium my-6 mx-auto px-6 py-3 hover:bg-blue-700 hover:scale-90 duration-200'>start trail</button>
                 </div>            
             </div>
         </div>

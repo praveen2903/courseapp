@@ -1,9 +1,12 @@
 import React from 'react'
 import {FaFacebookSquare,FaGithubSquare,FaInstagram,FaTwitterSquare,} from 'react-icons/fa';
+import ScrollToTop from 'react-scroll-to-top';
 
 export default function Footer() {
     return (
+       
         <div className='bg-[#2699fb] p-4'>
+            <ScrollToTop smooth color='#f97316' width='35' height='25' />
             <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-white'>
                 <div>
                     <h1 className='w-full text-3xl font-bold text-black'>KnowTechy</h1>
